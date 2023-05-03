@@ -1,0 +1,29 @@
+{
+    "name": "random-users",
+    "version": "1.0.0",
+    "homepage": "https://kevwhuang.github.io/random-users",
+    "author": "Kevin Huang",
+    "scripts": {
+        "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+        "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start"
+    },
+    "dependencies": {
+        "axios": "*",
+        "react": "*",
+        "react-dom": "*",
+        "react-scripts": "*",
+        "uuid": "*"
+    },
+    "browserslist": {
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ],
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ]
+    }
+}
